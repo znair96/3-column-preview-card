@@ -92,12 +92,12 @@ body {
   }
   .car1 {
     border-radius: 0;
-    /* border-top-left-radius: 0.8rem; */
-    /* border-top-right-radius: 0.8rem; */
+    border-top-left-radius: 0.8rem;
+    border-top-right-radius: 0.8rem;
   }
   .car3 {
     border-radius: 0;
-    /* border-bottom-left-radius: 0.8rem; */
-    /* border-bottom-right-radius: 0.8rem; */
+    border-bottom-left-radius: 0.8rem;
+    border-bottom-right-radius: 0.8rem;
   }
 }
