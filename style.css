@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+body {
+  display: flex;
+  /* flex-direction: column; */
+  /* height: auto; */
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.container {
+  width: 57rem;
+  display: flex;
+  color: hsla(0, 0%, 100%, 0.75);
+  flex-wrap: wrap;
+  /* position: absolute; */
+  /* left: 0; */
+  /* right: 0; */
+  /* bottom: 0; */
+  /* justify-content: center; */
+  /* bottom: -50%; */
+  /* transform: translate(0, 50%); */
+}
+.car {
+  padding: 2.5rem;
+  width: 19rem;
+}
+.car h1 {
+  text-transform: uppercase;
+  color: hsl(0, 0%, 95%);
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 2.5rem;
+  letter-spacing: 0.05rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.car p {
+  line-height: 1.8rem;
+  margin-bottom: 4.5rem;
+}
+.car1 {
+  background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 0.8rem;
+  border-bottom-left-radius: 0.8rem;
+}
+.car2 {
+  background-color: hsl(184, 100%, 22%);
+}
+.car3 {
+  background-color: hsl(179, 100%, 13%);
+  border-top-right-radius: 0.8rem;
+  border-bottom-right-radius: 0.8rem;
+}
+.car1 .btn {
+  color: hsl(31, 77%, 52%);
+}
+.car2 .btn {
+  color: hsl(184, 100%, 22%);
+}
+.car3 .btn {
+  color: hsl(179, 100%, 13%);
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(0, 0%, 95%);
+  padding: 0.8rem 2rem;
+  font-size: 0.95rem;
+  border-radius: 1.5rem;
+  border: 0;
+  font-family: "Lexend Deca", sans-serif;
+}
+@media only screen and (max-width: 800px) {
+  body {
+    height: auto;
+  }
+  .container {
+    justify-content: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+  .car {
+    width: 22rem;
+  }
+  .car1 {
+    border-radius: 0;
+  }
+  .car3 {
+    border-radius: 0;
+  }
+}
